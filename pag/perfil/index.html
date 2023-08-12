@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="logo" class="logo">
+            <img src="../../img/cerebro.png">
+            <h2>EDUC.AVA</h2>
+        </div>
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="../principal/"><span class="colore">Turmas</span></a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle"><span class="colore">Usuario +</span></label>
+                    <a href="#"><span class="colore">Usuario</span></a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#"><span class="colore">Meu perfil</span></a></li>
+                        <li><a href="#">Configurações</a></li>
+                        <li><a href="#"></a></li>
+                    </ul> 
+
+                </li>
+          
+                <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Dashboard +</label>
+                <a href="#">Dashboard</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">Material de apoio</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">Blackboard</a></li>
+                    <li>
+                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-3" class="toggle">Atividades +</label>
+                    <a href="#">Atividades</a>         
+                    <input type="checkbox" id="drop-3"/>
+
+                    <ul>
+                        <li><a href="#">Sem data</a></li>
+                        <li><a href="#">Com data</a></li>
+                        <li><a href="#">Atrasadas</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                
+                
+            </ul>
+        </nav>
+        <div class="centralizar">
+            <section class="usuario-cont">
+                <img src="../../img/user.webp">
+                <div class="usuario-desc">
+                    <h2>Usuário</h2>
+                    <p class="tipo">Aluno</p>
+                    <p>Matricula: 000000000</p>
+                    <button class="ed-perfil">Editar perfil</button>
+                </div>
+            </section>
+            <section class="tabela-atividades">
+                <h3>Atividades</h3>
+                <table class="tabela-atividades-table">
+                    <tr>
+                      <th>Data</th>
+                      <th class="borda">Turma</th>
+                      
+                    </tr>
+                    <tr class="atrasado">
+                        <td>10-08-2023</td>
+                      <td class="borda">TDS</td>
+                      
+                    </tr>
+                    <tr>
+                        <td>15-08-2023</td>
+                      <td class="borda">TDS</td>
+                    </tr>
+                    <tr>
+                        <td>28-08-2023</td>
+                      <td class="borda">Trilha Front-end</td>
+                    </tr>
+                    <tr>
+                        <td>10-09-2023</td>
+                      <td class="borda">TDS</td>
+                    </tr>
+                    
+                  </table>
+                  <a class="botao-todas" href="">VER TODAS</a>
+            </section>
+            <section class="turmas">
+                <h3>Turmas</h3>
+                <p>Turmas em que você está inscrito.</p>
+                <div>
+                    <div class="turma">
+                        <h3 class="turma-nome">TDS</h3>
+                    </div>
+                    <div class="turma">
+                        <h3 class="turma-nome">Trilha front-end</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="turmas">
+                <h3>Aproveitamento</h3>
+                <p>seu aproveitamento.</p>
+                <img src="../../img/grafico.png">
+
+            </section>
+        </div>
+        <footer class="rod">
+            <div id="logo" class="logo">
+                <img src="../../img/cerebro.png">
+                <h2>EDUC.AVA</h2>
+            </div>
+        </footer>
+</body>
+</html>

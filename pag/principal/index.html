@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="logo" class="logo">
+            <img src="../../img/cerebro.png">
+            <h2>EDUC.AVA</h2>
+        </div>
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./index.html"><span class="colore">Turmas</span></a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle"><span class="colore">Usuario +</span></label>
+                    <a href="#"><span class="colore">Usuario</span></a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="../perfil/"><span class="colore">Meu perfil</span></a></li>
+                        <li><a href="#">Configurações</a></li>
+                    </ul> 
+
+                </li>
+          
+                <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Dashboard +</label>
+                <a href="#">Dashboard</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">Material de apoio</a></li>
+                    <li><a href="#">Mural de avisos</a></li>
+                    <li>
+                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-3" class="toggle">Atividades +</label>
+                    <a href="#">Atividades</a>         
+                    <input type="checkbox" id="drop-3"/>
+
+                    <ul>
+                        <li><a href="#">Sem data</a></li>
+                        <li><a href="#">Com data</a></li>
+                        <li><a href="#">Atrasadas</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                
+                
+                
+            </ul>
+        </nav>
+
+        <section class="principal">
+            <h2>Bem-vindo de volta, Usuário!</h2>
+            <h3>Turmas:</h3>
+
+            <div class="principal-turmas">
+                <div class="principal-turma">
+                    <h4>Modelo: presencial</h4>
+                    <h3>TDS</h3>
+                    <div class="barra"></div>
+                    <div class="barra2"></div>
+                    <p> 7%</p>
+                </div>
+
+                <div class="principal-turma">
+                    <h4>Modelo: presencial</h4>
+                    <h3>Trilha front-end</h3>
+                    <div class="barra"></div>
+                    <div class="barra3"></div>
+                    <p> 94%</p>
+                </div>
+
+                <div class="principal-turma">
+                    <h4>Modelo: online</h4>
+                    <h3>Banco de dados</h3>
+                    <div class="barra"></div>
+                    <div class="barra4"></div>
+                    <div class="rank">
+                        <div class="rank-cont">
+                            <img src="../../img/trofeu.png">
+                        
+                        </div>
+                    </div>
+                    <p> 50%</p>
+                </div>
+            </div>
+            <footer class="rod">
+                <div id="logo" class="logo">
+                    <img src="../../img/cerebro.png">
+                    <h2>EDUC.AVA</h2>
+                </div>
+            </footer>
+
+            
+
+        
+        </section>
+        
+
+</body>
+</html>
